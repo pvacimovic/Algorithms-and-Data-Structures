@@ -90,12 +90,12 @@ int main()
     int arr[] = { 12, 11, 13, 5, 6, 7 };
     int arr_size = sizeof(arr) / sizeof(arr[0]);
 
-    std::cout << "Given array is: ";
+    std::cout << "Given array: ";
     printArray(arr, arr_size);
  
     merge_sort(arr, 0, arr_size - 1);
  
-    std::cout << "Sorted array is: ";
+    std::cout << "Sorted array: ";
     printArray(arr, arr_size);
 
     return 0;
